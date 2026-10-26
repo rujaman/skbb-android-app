@@ -1,3 +1,4 @@
+
 {
   "name": "skbb-android-app",
   "version": "1.0.0",
@@ -8,7 +9,8 @@
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
     "android:sync": "npm run build && npx cap sync android",
-    "android:open": "npx cap open android"
+    "android:open": "npx cap open android",
+    "icons": "capacitor-assets generate"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.0",
@@ -17,6 +19,7 @@
     "@capacitor/android": "^7.4.3"
   },
   "devDependencies": {
-    "@capacitor/cli": "^7.4.3"
+    "@capacitor/cli": "^7.4.3",
+    "@capacitor/assets": "^3.0.5"
   }
 }

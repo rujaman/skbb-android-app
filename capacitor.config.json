@@ -1,0 +1,8 @@
+{
+  "appId": "org.samajkallyan.bloodbank",
+  "appName": "Samaj Kallyan Blood Bank",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
